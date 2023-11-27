@@ -43,6 +43,3 @@ Users should be able to:
 
 I didn't learn anything particularly new but I was incredibly happy to see how much I improved in the past months. This challenge would've been a struggle a while ago. After playing around with Bootstrap and trying out things on my own, I believe I'm finally comfortable with handling images, and make them responsive as well!
 
-## Author
-
-- Frontend Mentor - [@FluffyKas](https://www.frontendmentor.io/profile/FluffyKas)
