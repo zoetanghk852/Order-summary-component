@@ -1,0 +1,137 @@
+.App {
+  background-image: url("./image/pattern-background-desktop.svg");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardWrapper {
+  background-color: #fff;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 0px 0px 20px 0px;
+  box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.15);
+  animation: introLoad 1.5s forwards;
+  transition: all 0.8s ease;
+}
+
+.hero {
+  background-image: url("./image/illustration-hero.svg");
+  width: 420px;
+  height: 220px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-repeat: no-repeat;
+}
+.bottom {
+  background-color: #fff;
+  height: 400px;
+  padding: 0px 50px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  padding-top: 30px;
+  margin: 0;
+}
+.context {
+  text-align: center;
+  color: #adb1c1;
+  margin: 0;
+}
+.music_wrapper {
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #dae3fa70;
+  display: flex;
+  align-items: center;
+}
+.item2 {
+  flex-grow: 2;
+  padding-left: 20px;
+}
+
+.item3 {
+  color: #5551b1;
+  transition: all 0.9s;
+  font-weight: 900;
+  text-decoration: none;
+}
+.item3 {
+  font-size: 1rem;
+  color: #5551b1;
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.9s;
+}
+
+.item3:before {
+  content: "";
+  width: 100%;
+  height: 0.1em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #5551b1;
+  transition: all 0.3s;
+}
+
+.item3:hover:before {
+  width: 0;
+  background: transparent;
+}
+
+.music_icon {
+  height: 48px;
+  width: 48px;
+  background-image: url("./image/icon-music.svg");
+}
+
+.proceed_btn,
+.canal_btn {
+  border: none;
+  width: 100%;
+  font-weight: 800;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.proceed_btn {
+  color: #fff;
+  background-color: blue;
+  box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.15);
+}
+
+.canal_btn {
+  background-color: transparent;
+  color: #adb1c1;
+}
+
+.proceed_btn:hover,
+.canal_btn:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+.canal_btn:hover {
+  background-color: rgba(0, 0, 255, 0.048);
+}
+
+@keyframes introLoad {
+  0% {
+    transform: translateY(-6.25rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
