@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/order-summary-card-mobile.png)
-![](./screenshots/order-summary-card-desktop.png)
+![](./design/active-states.jpg)
+![](./design/mobile-design.jpg)
 
 ### Links
 
